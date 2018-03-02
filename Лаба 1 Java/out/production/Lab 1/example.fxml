@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?language javascript?>
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<!--<?import javafx.scene.control.Button?>-->
+<!--<?import javafx.scene.layout.ColumnConstraints?>-->
+<!--<?import javafx.scene.layout.GridPane?>-->
+<!--<?import javafx.scene.layout.RowConstraints?>-->
+
+
+<GridPane  alignment="center" hgap="10" vgap="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.121" fx:controller="Controller">
+
+    <padding><Insets top="25" right="25" bottom="10" left="25"/>
+    </padding>
+    <!--<gridLinesVisible>true</gridLinesVisible>-->
+
+
+    <Label text="Растояние:"
+           GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+
+    <TextField fx:id="distanceTextField"
+               GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+
+    <Label text="Скорость:"
+           GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+
+    <TextField fx:id="speedTextField"
+               GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+    <HBox spacing="10" alignment="bottom_right"
+          GridPane.columnIndex="1" GridPane.rowIndex="4">
+        <Button text="Посчитать"
+                onAction="#handleSubmitButtonAction"/>
+    </HBox>
+
+    <Text fx:id="actiontarget"
+          GridPane.columnIndex="1" GridPane.rowIndex="6"/>
+
+</GridPane>
