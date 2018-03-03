@@ -4,6 +4,7 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.stage.Stage;
 
 public class Main extends Application {
@@ -19,6 +20,7 @@ public class Main extends Application {
         primaryStage.setTitle("Lab 1");//установка заголовка
         primaryStage.setScene(new Scene(root, 400, 400));//создание главного окна
         primaryStage.show();
+
     }
 
 
