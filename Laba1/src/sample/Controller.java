@@ -21,18 +21,7 @@ public class Controller {
     {
         slogan.setText("БГУИР-знания и стиль жизни");
     }
-    @FXML
-     public void initialize()
-    {
-        btn=new Button("Show");
-        btn.addEventHandler(MouseEvent.MOUSE_CLICKED, new EventHandler<MouseEvent>() {
-            @Override
-            public void handle(MouseEvent mouseEvent) {
-                ShowBsuirSlogan();
-            }
-        });
-        mainGrid.add(btn,0,7);
-    }
+
 
     @FXML protected void handleSubmitButtonAction(ActionEvent event) {
         try {

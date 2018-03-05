@@ -28,7 +28,6 @@
     </HBox>
 
     <Text fx:id="actiontarget" GridPane.columnIndex="1" GridPane.rowIndex="6" />
-    <Label fx:id="slogan" text="" GridPane.columnIndex="1" GridPane.rowIndex="7" />
    <columnConstraints>
       <ColumnConstraints />
       <ColumnConstraints />
