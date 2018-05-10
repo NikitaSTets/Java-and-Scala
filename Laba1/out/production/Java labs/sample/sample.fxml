@@ -27,7 +27,8 @@
         <Button onAction="#handleSubmitButtonAction" text="Посчитать" />
     </HBox>
 
-    <Text fx:id="actiontarget" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+    <Text fx:id="actiontarget" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+    <Label text="BsuirInfo" GridPane.columnIndex="1" GridPane.rowIndex="6" />
    <columnConstraints>
       <ColumnConstraints />
       <ColumnConstraints />

@@ -3,6 +3,7 @@ import org.scalatest.{FlatSpec, _}
 
 import scala.collection.mutable.Stack
 
+
 class ExampleSpec extends FlatSpec with Matchers {
 
   "A Stack" should "pop values in last-in-first-out order" in {
